@@ -1,0 +1,116 @@
+img {
+  height: 300px;
+  width: 100%
+}
+
+.name {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+.first {
+  font-size: 25px;
+  margin: 0px;
+  position: absolute;
+  top: 190px;
+  left: 230px;
+ 
+}
+
+.second {
+  font-size: 50px;
+  margin: 0px;
+  position: absolute;
+  top: 215px;
+  left: 230px;
+}
+
+.including {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+ 
+}
+
+ .list {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 230px;
+  color: #222
+}
+
+li {
+  padding: 3px;
+}
+
+.rule {
+  background: #333;
+  color: white;
+  padding: 40px;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive; 
+  margin: 15px 180px;
+  width: 100%
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.rule::before {
+  content: "\"";
+  color: white;
+  position: relative;
+  top: -20px;
+  left: -10px;
+}
+
+.header-text {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.below-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+.note {
+  font-family: 'Merriweather', serif;
+  margin-left: 200px;
+  margin-top: 0px;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.second-list {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  margin-left: 230px;
+  color: #222;
+  margin-right: 200px;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-top: 3px solid black;
+  margin-left: 200px;
+  margin-right: 200px;
+}
